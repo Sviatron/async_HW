@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>asynchronus</title>
+    <style>
+      .bobux {
+        color: black;
+        transition: color 0.5s;
+      }
+
+      .animator {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="bobux">Free robux!!!</p>
+    <p class="bobux">Free robux!!!</p>
+    <p class="bobux">Free robux!!!</p>
+    <p class="bobux">Free robux!!!</p>
+    <p class="bobux">Free robux!!!</p>
+
+    <p id="status">Press btn to start the game!</p>
+    <p id="key"></p>
+    <p id="points"></p>
+    <button type="button" id="restart">Start new game</button>
+
+    <form id="delay-form">
+      <input type="number" id="delay-input" />
+      <button type="submit" id="delay-submit">submit</button>
+    </form>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
